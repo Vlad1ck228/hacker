@@ -3,29 +3,52 @@ NetCraft: https://www.netcraft.com/tools/
 - Призначення: NetCraft надає інформацію про інтернет-ресурси, зокрема їхню історію, технічні параметри та захист від фішингових атак. Також він може виявляти подібні атаки та інші загрози для безпеки в мережі.
 - Використання: Вивчення інтернет-ресурсів, а також для виявлення можливих загроз безпеки та моніторингу стану веб-сайтів.
 
+  site: - Пошук за конкретним доменом чи IP-адресою. Наприклад, site:example.com.
+  host: - Знаходження інформації про конкретний хост або сервер. Наприклад, host:www.example.com.
+  toolbar: - Пошук за наявністю NetCraft Toolbar на веб-сайті. Наприклад, toolbar:yes
+
 Shodan: https://www.shodan.io/
 
 - Призначення: Shodan є пошуковою системою для підключених до Інтернету пристроїв та систем. Вона дозволяє користувачам знаходити підключені до мережі пристрої, визначати їх технічні характеристики та вразливості.
 - Використання: Сканування мережі, виявлення підключених пристроїв і служб, а також для оцінки рівня безпеки підключених об'єктів.
+
+  hostname: - Пошук за доменним ім'ям. Наприклад, hostname:example.com.
+  port: - Пошук за номером порту. Наприклад, port:80 для пошуку веб-серверів.
+  country: - Пошук за країною. Наприклад, country:US.
 
 Censys: https://censys.com/
 
 - Призначення: Censys надає публічний доступ до великої кількості інформації про пристрої та служби в Інтернеті. Це включає технічні дані, сертифікати SSL, DNS-записи та іншу інформацію.
 - Використання: Моніторингу безпеки, аналізу конфігурацій мережі, виявлення проблем безпеки.
 
+  ip: - Пошук за конкретною IP-адресою. Наприклад, ip:192.168.1.1.
+  protocol: - Пошук за конкретним протоколом. Наприклад, protocol:https для шукання за захищеним SSL/TLS з'єднанням.
+  tags: - Пошук за тегами, які можуть вказувати на певний тип пристрою чи сервісу. Наприклад, tags:web.
 -----------------------------------------------------------------------------------------------------------------------------
 
 NetCraft: https://www.netcraft.com/tools/
 
 - Purpose: NetCraft provides information about Internet resources, including their history, technical parameters, and protection against phishing attacks. It can also detect such attacks and other security threats on the network.
-- Usage: To study Internet resources, as well as to identify possible security threats and monitor the status of websites.
+- Usage: To study Internet resources, as well as to identify possible security threats and monitor the health of websites.
+
+  site: - Search by a specific domain or IP address. For example, site:example.com.
+  host: - Find information about a specific host or server. For example, host:www.example.com.
+  toolbar: - Search for the presence of a NetCraft Toolbar on a website. For example, toolbar:yes
 
 Shodan: https://www.shodan.io/
 
-- Purpose: Shodan is a search engine for Internet-connected devices and systems. It allows users to find devices connected to the network, determine their technical characteristics and vulnerabilities.
-- Usage: Scanning the network, identifying connected devices and services, and for assessing the security level of connected objects.
+- Purpose: Shodan is a search engine for Internet-connected devices and systems. It allows users to find network-connected devices, determine their specifications and vulnerabilities.
+- Usage: Scanning the network, identifying connected devices and services, and to assess the security level of connected objects.
 
-Censys: https://censys.com/
+  hostname: - Search by domain name. For example, hostname:example.com.
+  port: - Search by port number. For example, port:80 to search for web servers.
+  country: Search by country. For example, country:US.
 
-- Purpose: Censys provides public access to a wealth of information about devices and services on the Internet. This includes technical data, SSL certificates, DNS records, and other information.
+Censys: https://censys.com/.
+
+- Purpose: Censys provides public access to a wealth of information about devices and services on the Internet. This includes technical data, SSL certificates, DNS records and other information.
 - Usage: Security monitoring, analyzing network configurations, identifying security issues.
+
+  ip: - Search by a specific IP address. For example, ip:192.168.1.1.
+  protocol: - Search by a specific protocol. For example, protocol:https to search for a secure SSL/TLS connection.
+  tags: - Search by tags that may indicate a specific type of device or service. For example, tags:web.
