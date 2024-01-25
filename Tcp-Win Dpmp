@@ -1,0 +1,53 @@
+WinDump:
+Опис:
+
+WinDump є портом програми tcpdump для операційних систем Windows. Використовує бібліотеку WinPcap для захоплення пакетів з мережевих інтерфейсів.
+
+Основні параметри командного рядка:
+-i <ім'я інтерфейсу>: Визначення мережевого інтерфейсу для захоплення трафіку.
+-w <шлях до файлу>: Задання файлу для зберігання захопленого трафіку.
+-D: Виведення списку доступних мережевих інтерфейсів.
+
+Приклад використання:
+WinDump.exe -i device_name -w capture_file.pcap
+
+TcpDump:
+Опис:
+
+Tcpdump є утилітою захоплення та відображення мережевого трафіку на Unix-подібних системах.
+
+Основні параметри командного рядка:
+-i <ім'я інтерфейсу>: Визначення мережевого інтерфейсу для захоплення трафіку.
+-w <шлях до файлу>: Задання файлу для зберігання захопленого трафіку.
+-D: Виведення списку доступних мережевих інтерфейсів.
+
+Приклад використання:
+tcpdump -i eth0 -w capture_file.pcap
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+WinDump:
+Description:
+
+WinDump is a port of the tcpdump program for Windows operating systems. It uses the WinPcap library to capture packets from network interfaces.
+
+Basic command line parameters:
+-i <interface name>: Specifies the network interface to capture traffic on.
+-w <file path>: Specifies a file to store the captured traffic.
+-D: Displays a list of available network interfaces.
+
+Example of use:
+WinDump.exe -i device_name -w capture_file.pcap
+
+TcpDump:
+Description:
+
+Tcpdump is a utility for capturing and displaying network traffic on Unix-like systems.
+
+Basic command line options:
+-i <interface name>: Defines the network interface to capture traffic on.
+-w <file path>: Specifies a file to store the captured traffic.
+-D: Displays a list of available network interfaces.
+
+Example of use:
+tcpdump -i eth0 -w capture_file.pcap
