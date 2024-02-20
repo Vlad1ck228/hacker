@@ -1,0 +1,25 @@
+ **Evil Droid:**
+
+Опис: Evil Droid - це шкідлива програма для Android, яка створена для віддаленого керування зараженими пристроями. Вона може виконувати різні функції, такі як перехоплення SMS, зловмисний доступ до камери та мікрофону, відстеження геолокації та інше.
+
+Приклад роботи: Після інсталяції на пристрій Evil Droid надсилає зібрані дані до зловмисника через звичайний канал зв'язку, такий як Інтернет. Зловмисник може віддалено керувати програмою, відправляючи команди через Інтернет, щоб виконати певні дії на зараженому пристрої.
+ 
+ **SpyMax:**
+
+Опис: SpyMax - це інша шкідлива програма для Android, яка призначена для нелегального отримання доступу до особистих даних користувача і віддаленого керування зараженим пристроєм. Вона може виконувати функції, подібні до Evil Droid, такі як перехоплення повідомлень, доступ до камери та мікрофону, крадіжка особистих даних та інше.
+
+Приклад роботи: Після інсталяції SpyMax може відправляти створені зловмисником команди на заражений пристрій через інтернет-зв'язок. Потім програма може виконувати ці команди, наприклад, відправляти скопійовану інформацію, здійснювати фотографії або відео через камеру, реєструвати натискання клавіш та багато іншого.
+
+***************************************
+
+**Evil Droid:**
+
+Description: Evil Droid is an Android malware that is designed to remotely control infected devices. It can perform various functions, such as SMS interception, malicious access to the camera and microphone, geolocation tracking, and more.
+
+An example of how it works: Once installed on a device, Evil Droid sends the collected data to an attacker via a common communication channel such as the Internet. The attacker can remotely control the program by sending commands over the Internet to perform certain actions on the infected device.
+ 
+ **SpyMax:**
+
+Description: SpyMax is another Android malware that is designed to illegally gain access to user's personal data and remotely control the infected device. It can perform functions similar to Evil Droid, such as intercepting messages, accessing the camera and microphone, stealing personal data, and more.
+
+Example of operation: Once installed, SpyMax can send commands created by the attacker to the infected device via the Internet connection. The program can then execute these commands, for example, send copied information, take photos or videos through the camera, record keystrokes, and much more.
