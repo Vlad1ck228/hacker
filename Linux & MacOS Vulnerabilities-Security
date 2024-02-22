@@ -1,0 +1,31 @@
+**Security** 
+Багатофакторна аутентифікація: Якщо налаштовано належним чином, Linux і macOS підтримують багатофакторну аутентифікацію, що забезпечує додатковий рівень безпеки при вході користувача.
+Права доступу: Обидві операційні системи використовують механізми контролю доступу до файлів і папок (наприклад, UNIX-подібні права доступу в Linux), що дозволяє обмежувати доступ користувачів до конфіденційної інформації.
+Оновлення безпеки: Як і в інших операційних системах, в Linux і macOS регулярно випускаються оновлення безпеки, що виправляють виявлені уразливості.
+Політика безпеки: Linux і macOS мають різні політики безпеки, але обидва надають можливості для налаштування рівня безпеки системи з урахуванням потреб користувача.
+Обмежені права користувача за замовчуванням: В обох операційних системах зазвичай користувачі не мають адміністративних прав доступу за замовчуванням, що допомагає уникнути непередбачених проблем безпеки.
+Система файлової інтеграції: В обох операційних системах використовуються різні системи файлової інтеграції, такі як Apple File System (APFS) для macOS і різні файли і системи файлів для різних дистрибутивів Linux. Ці системи можуть мати вплив на безпеку операційних систем.
+
+**Vulnerabilities**
+Вразливості ядра (Kernel Vulnerabilities): Оскільки ядро Linux і macOS відкриті, вони можуть мати уразливості, що можуть бути використані для отримання несанкціонованого доступу або виконання коду.
+Вразливості в програмному забезпеченні: Як і в будь-якому програмному забезпеченні, у Linux та macOS можуть бути уразливості, які можуть бути використані для атаки через вразливі програми або служби.
+Вразливості мережевої безпеки: Наприклад, уразливості в мережевих протоколах, службах або програмах можуть дозволити зловмиснику використовувати атаки, такі як отримання несанкціонованого доступу до системи або витік конфіденційної інформації через мережу.
+Вразливості в бібліотеках: Уразливості в сторонніх бібліотеках або залежностях можуть мати вплив на безпеку системи, якщо вони використовуються в програмах або процесах.
+Соціальна інженерія та людські помилки: Часто вразливості виникають через помилки користувачів, які можуть бути використані зловмисниками для отримання доступу до системи або конфіденційної інформації.
+
+*****************************************************************************************************************************************************************************************************************************************************************
+
+**Security**. 
+Multi-factor authentication: When configured properly, Linux and macOS support multi-factor authentication, which provides an additional layer of security when a user logs in.
+Access rights: Both operating systems use mechanisms to control access to files and folders (for example, UNIX-like permissions in Linux), which allows you to limit user access to sensitive information.
+Security updates: As with other operating systems, Linux and macOS regularly release security updates to address identified vulnerabilities.
+Security policies: Linux and macOS have different security policies, but both provide options for customizing the security level of the system to meet the needs of the user.
+Limited user rights by default: In both operating systems, users usually do not have administrative access rights by default, which helps to avoid unforeseen security issues.
+File integration system: Both operating systems use different file integration systems, such as Apple File System (APFS) for macOS and different files and file systems for different Linux distributions. These systems can have an impact on the security of the operating systems.
+
+**Vulnerabilities**.
+Kernel Vulnerabilities: Because the Linux kernel and macOS are open, they may have vulnerabilities that can be exploited to gain unauthorized access or execute code.
+Software Vulnerabilities: As with any software, Linux and macOS may have vulnerabilities that can be exploited for an attack through vulnerable applications or services.
+Network security vulnerabilities: For example, vulnerabilities in network protocols, services, or applications can allow an attacker to use attacks such as gaining unauthorized access to a system or leaking sensitive information over the network.
+Vulnerabilities in libraries: Vulnerabilities in third-party libraries or dependencies can have an impact on system security if they are used in programs or processes.
+Social engineering and human error: Vulnerabilities often arise from user errors that can be exploited by attackers to gain access to the system or sensitive information.
