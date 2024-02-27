@@ -1,0 +1,9 @@
+Hashtopolis - це відкрите програмне забезпечення для розподіленого вирішення хешів, яке дозволяє використовувати кластери обчислювальних машин для розшифрування хешів паролів. Він надає зручний інтерфейс для керування завданнями розшифрування та моніторингу процесу. Hashtopolis може бути використаний для атак на хеш-функції такі як MD5, SHA1, NTLM та інші.
+
+Hashcat - це потужний інструмент для відновлення паролів, який використовує методи атаки, такі як перебір (brute-force), словникові атаки, атаки на маску та комбіновані атаки для розшифрування хешів паролів. Він підтримує широкий спектр хеш-функцій і форматів хешів, таких як MD5, SHA1, SHA256, NTLM, bcrypt та інші.
+
+********************************************************************************************************************************************************************************************************************************************************************************
+
+Hashtopolis is an open-source distributed hash solution software that allows you to use clusters of computers to decrypt password hashes. It provides a user-friendly interface for managing decryption tasks and monitoring the process. Hashtopolis can be used to attack hash functions such as MD5, SHA1, NTLM, and others.
+
+Hashcat is a powerful password recovery tool that uses brute-force attacks, dictionary attacks, mask attacks, and combination attacks to decrypt password hashes. It supports a wide range of hash functions and hash formats, such as MD5, SHA1, SHA256, NTLM, bcrypt and others.
