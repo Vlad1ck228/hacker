@@ -1,0 +1,25 @@
+1. **Фішинг:** Атакуючий може намагатися отримати конфіденційну інформацію, надсилання шахрайських електронних листів або створення підроблених веб-сайтів для введення облікових даних.
+
+2. **Експлойтація вразливостей:** З використанням вразливостей в операційній системі або програмному забезпеченні, атакуючий намагається отримати доступ до системи.
+
+3. **Розповсюдження шкідливого програмного забезпечення:** Після отримання доступу, атакуючий може розповсюджувати шкідливе програмне забезпечення, яке може використовуватися для збору інформації.
+
+4. **Збір інформації:** Атакуючий використовує зброю, що вже знаходиться в системі, для збору конфіденційної інформації, такої як паролі, ключі доступу чи файли.
+
+5. **Експорт інформації:** Отримана інформація виводиться з системи або передається на зовнішні сервери за допомогою команд і передач файлів.
+
+6. **Маскування слідів:** Атакуючий може приховати свою присутність, видаляючи журнали, змінюючи файли або використовуючи інші методи обману.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. **Phishing:** An attacker may attempt to obtain confidential information by sending fraudulent emails or creating fake websites to enter credentials.
+
+2. **Vulnerability Exploitation:** By exploiting vulnerabilities in the operating system or software, the attacker attempts to gain access to the system.
+
+3. **Malware distribution:** Once access is gained, the attacker can distribute malware that can be used to gather information.
+
+4. **Information Gathering:** The attacker uses weapons already on the system to gather sensitive information such as passwords, access keys, or files.
+
+5. **Exporting information:** The obtained information is output from the system or transferred to external servers using commands and file transfers.
+
+6) **Covering your tracks:** An attacker can hide his presence by deleting logs, modifying files, or using other deceptive methods.

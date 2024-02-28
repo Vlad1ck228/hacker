@@ -1,0 +1,87 @@
+hping3 - це інструмент командного рядка для створення та відправлення мережевих пакетів на рівні TCP/IP. Він дозволяє користувачам генерувати різні види пакетів, відправляти їх і аналізувати реакцію системи або мережі на ці пакети. hping3 може бути використаний для різноманітних завдань, включаючи дослідження мережевих характеристик, тестування безпеки та відлагодження мережевих застосунків.
+
+Основні характеристики hping3 включають:
+
+1. **Генерація пакетів:**
+   - hping3 може генерувати різноманітні типи пакетів, такі як TCP, UDP, ICMP і RAW-IP.
+
+2. **Специфікація полів пакета:**
+   - Користувач може визначити різні поля пакета, такі як адреса відправника, адреса отримувача, номер порту і т. д.
+
+3. **Підтримка сканування портів:**
+   - hping3 може бути використаний для виконання сканування портів, такого як SYN, FIN, Xmas, Null і інші.
+
+4. **Можливості аналізу відповідей:**
+   - hping3 може аналізувати відповіді на відправлені пакети, дозволяючи визначити реакцію системи на відправлені пакети.
+
+5. **Високий рівень гнучкості:**
+   - Завдяки своєму великому набору параметрів та опцій, hping3 є дуже гнучким інструментом, придатним для різних сценаріїв використання.
+
+6. **Тестування мережевої безпеки:**
+   - hping3 може бути використаний для тестування мережевої безпеки, включаючи виявлення портів, вразливих до атак SYN flood та інших атак на рівні мережі.
+
+7. **Підтримка VPN трафіку:**
+   - hping3 може взаємодіяти з VPN-трафіком і генерувати пакети через віртуальні приватні мережі.
+
+Команди:
+
+1. `hping3 -A ip -p 80`: Відправка пакетів з флагом ACK на порт 80 IP-адреси.
+2. `hping3 ip -Q -p 139`: Відправка пакетів з інверсійним флагом (Q) на порт 139 IP-адреси.
+3. `hping3 ip -S -p 80 --tcp-timestamp`: Відправка синхронізаційних пакетів (SYN) на порт 80 з включеним timestamp.
+4. `hping3 ip -8 1-35000 -S -V`: Відправка пакетів зі сфальсифікованим номером послідовності і флагом SYN.
+5. `hping3 --scan 1-3390 ip -S -V`: Виконання сканування портів від 1 до 3390, використовуючи пакети з флагом SYN.
+6. `hping3 -1 ip-ip --rand-dest -I eth0`: Відправка ICMP Echo Request зі сфальсифікованою адресою відправника та випадковою адресою отримувача через інтерфейс eth0.
+7. `hping3 -9 HTTP -I eth0`: Відправка UDP-пакетів на порт 9 (для Discard-протоколу) з випадковими даними та вказаною адресою відправника через інтерфейс eth0.
+8. `hping3 -S ip -a ip -p 22 --flood`: Запуск атаки SYN flood на порт 22 із вказаною адресою відправника.
+9. `hping3 -S ip --spoof ip`: Відправка синхронізаційних пакетів із сфальсифікованою адресою відправника.
+10. `hping3 -S --flood -V ip -p 443`: Запуск атаки SYN flood на порт 443 із вказаною адресою відправника та виведенням деталей.
+11. `hping3 -S --flood -V ip -p 3389 -d 1450`: Запуск атаки SYN flood на порт 3389 із вказаною адресою відправника, вказаною величиною пакета (1450 байт).
+12. `hping3 -a ip ip -S -q -p 80`: Відправка синхронізаційних пакетів на порт 80 із вказаною адресою відправника, без виведення зайвої інформації.
+13. `hping3 -a ip ip -S -q -p 443 -d 1450`: Відправка синхронізаційних пакетів на порт 443 із вказаною адресою відправника та вказаною величиною пакета.
+14. `hping3 -a ip ip -S -q -p 80`: Відправка синхронізаційних пакетів на порт 80 із вказаною відправником та отримувачем.
+15. `hping3 -a ip ip -S -q -p 443 -d 1450`: Відправка синхронізаційних пакетів на порт 443 із вказаною відправником та отримувачем, вказаною величиною пакета.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+hping3 is a command-line tool for creating and sending network packets at the TCP/IP layer. It allows users to generate different types of packets, send them, and analyze the response of the system or network to these packets. hping3 can be used for a variety of tasks, including network performance research, security testing, and debugging network applications.
+
+Key features of hping3 include:
+
+1. **packet generation:**
+   - hping3 can generate a variety of packet types, such as TCP, UDP, ICMP, and RAW-IP.
+
+2. **packet field specification:**
+   - The user can specify various packet fields such as sender address, receiver address, port number, etc.
+
+3. **support port scanning:**
+   - hping3 can be used to perform port scans such as SYN, FIN, Xmas, Null, and others.
+
+4. **hping3 can analyze responses:**
+   - hping3 can analyze responses to sent packets, allowing you to determine the system's response to sent packets.
+
+5. **high level of flexibility:**
+   - Thanks to its large set of parameters and options, hping3 is a very flexible tool suitable for a variety of use cases.
+
+6. **hping3 can be used for network security testing:**
+   - hping3 can be used for network security testing, including identifying ports vulnerable to SYN flood and other network level attacks.
+
+7. **support VPN traffic:**
+   - hping3 can interact with VPN traffic and generate packets over virtual private networks.
+
+Commands:
+
+1. `hping3 -A ip -p 80`: Sends packets with an ACK flag to port 80 of an IP address.
+2. `hping3 ip -Q -p 139`: Sends packets with the inversion flag (Q) to port 139 of the IP address.
+3. `hping3 ip -S -p 80 --tcp-timestamp`: Sends synchronization packets (SYN) to port 80 with timestamp enabled.
+4. `hping3 ip -8 1-35000 -S -V`: Sends packets with a spoofed sequence number and SYN flag.
+5. `hping3 --scan 1-3390 ip -S -V`: Performs a scan of ports 1 through 3390 using packets with the SYN flag.
+6. `hping3 -1 ip-ip --rand-dest -I eth0`: Sends an ICMP Echo Request with a spoofed sender address and a random destination address over the eth0 interface.
+7. `hping3 -9 HTTP -I eth0`: Sends UDP packets to port 9 (for the Discard protocol) with random data and the specified sender address via the eth0 interface.
+8. `hping3 -S ip -a ip -p 22 --flood`: Launches a SYN flood attack on port 22 with the specified sender address.
+9. `hping3 -S ip --spoof ip`: Sends synchronization packets with a spoofed sender address.
+10. `hping3 -S --flood -V ip -p 443`: Launches a SYN flood attack on port 443 with the specified sender address and displays details.
+11. `hping3 -S --flood -V ip -p 3389 -d 1450`: Launches a SYN flood attack on port 3389 with the specified sender address and the specified packet size (1450 bytes).
+12. `hping3 -a ip ip -S -q -p 80`: Sends synchronization packets to port 80 with the specified sender address, without displaying unnecessary information.
+13. `hping3 -a ip ip -S -q -p 443 -d 1450`: Sends synchronization packets to port 443 with the specified sender address and the specified packet size.
+14. `hping3 -a ip ip -S -q -p 80`: Sends synchronization packets to port 80 with the specified sender and destination.
+15. `hping3 -a ip ip -S -q -p 443 -d 1450`: Sends synchronization packets to port 443 with the specified sender and destination, and the specified packet size.

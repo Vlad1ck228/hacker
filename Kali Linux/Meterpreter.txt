@@ -1,0 +1,48 @@
+  1. **Remote Access:**
+   Інструмент для отримання віддаленого доступу до систем, особливо під управлінням Windows. Він може бути використаний для взаємодії з системою через мережу.
+
+  2. **Shell Functionality:**
+   Забезпечує командний рядок на зараженій системі. Ви можете використовувати команди, такі як `ls`, `cd`, `pwd`, `cat`, і багато інших, схожих на командний рядок оболонки.
+
+  3. **File System Manipulation:**
+   Дозволяє вам взаємодіяти з файловою системою цільової системи, включаючи копіювання, переміщення, видалення файлів і каталогів.
+
+  4. **Privilege Escalation:**
+   Meterpreter має ряд функцій, що дозволяють піднімати рівень привілеїв на зараженій системі. Це може бути корисно для отримання більших прав і виконання операцій, які вимагають високих привілеїв.
+
+  5. **Network Functionality:**
+   Має вбудовані інструменти для мережевого сканування, отримання інформації про мережеві порти та з'єднання, включаючи перехоплення мережевого трафіку.
+
+  6. **Post-exploitation Modules:**
+   Підтримує різні post-exploitation модулі, які дозволяють виконувати різноманітні дії на системі, такі як збір інформації, крадіжка облікових даних, перехоплення екрану і багато іншого.
+
+  7. **Persistence:**
+   Може встановлювати різноманітні методи persistence, щоб залишитися на зараженій системі навіть після перезапуску.
+
+ 8. **Scriptable:**
+   Може використовуватися з іншими інструментами та скриптами для розширення функціоналу.
+---------------------------------------
+
+  1. **Remote Access:**
+   A tool for gaining remote access to systems, especially those running Windows. It can be used to interact with a system over a network.
+
+  2. **Shell functionality:**
+   Provides a command line on the infected system. You can use commands such as `ls`, `cd`, `pwd`, `cat`, and many others similar to the shell command line.
+
+  3. **File System Manipulation:**
+   Allows you to interact with the file system of the target system, including copying, moving, deleting files and directories.
+
+  4. **Privilege Escalation:**
+   Meterpreter has a number of features that allow you to escalate privileges on an infected system. This can be useful for obtaining more rights and performing operations that require high privileges.
+
+  5. **Network Functionality:**
+   It has built-in tools for network scanning, obtaining information about network ports and connections, including interception of network traffic.
+
+  6. **Post-exploitation Modules:**
+   Supports various post-exploitation modules that allow you to perform various actions on the system, such as information gathering, credential theft, screen capture and much more.
+
+  7. **Persistence:**
+   It can set various persistence methods to stay on the infected system even after a restart.
+
+  8. **Scriptable:**
+   Can be used with other tools and scripts to extend the functionality.

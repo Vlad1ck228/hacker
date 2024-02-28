@@ -1,0 +1,9 @@
+apt update
+apt install docker.io
+apt install docker-compose
+mkdir hashtopolis
+cd hashtopolis
+wget https://raw.githubusercontent.com/hashtopolis/server/master/docker-compose.yml
+wget https://raw.githubusercontent.com/hashtopolis/server/master/env.example -O .env
+docker-compose up -d
+http://ip:8080
