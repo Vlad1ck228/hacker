@@ -17,3 +17,25 @@ nmap -sV [ЦІЛЬ]
 Основне сканування (TCP SYN):
 nmap -sS [ЦІЛЬ]
 Використовується для швидкого сканування відкритих портів.
+
+**********************************************************
+
+The main command:
+nmap [TARGET].
+Where TARGET is the IP address or domain to scan.
+
+TCP scanning is used:
+nmap -sT [TARGET]
+Used to scan for open TCP ports.
+
+UDP scan:
+nmap -sU [TARGET]
+Scans for open UDP ports.
+
+Determine software versions:
+nmap -sV [PURPOSE]
+Determines the software versions on open ports.
+
+Basic scan (TCP SYN):
+nmap -sS [PURPOSE]
+Use to quickly scan for open ports.
