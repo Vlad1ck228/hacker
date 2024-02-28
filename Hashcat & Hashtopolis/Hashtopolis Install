@@ -7,3 +7,5 @@ wget https://raw.githubusercontent.com/hashtopolis/server/master/docker-compose.
 wget https://raw.githubusercontent.com/hashtopolis/server/master/env.example -O .env
 docker-compose up -d
 http://ip:8080
+
+# **Hashtopolis Agent** After that, you need to download the hashtopolis.zip and run this command "python hashtopolis.zip cmd/powershell", install all the necessary libraries, specify "url", "token", "voucher", and you're done.
